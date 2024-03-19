@@ -2,7 +2,7 @@ package ModeladodeEntidades;
 
 import SimuladordeDinámicasPoblacionales.ResultadosdelaSimulación.Ambiente;
 
-public class Organismo {
+public abstract class Organismo {
     protected int posicionX;
     protected int posicionY;
     protected int salud;
@@ -52,4 +52,6 @@ public class Organismo {
     public void interactuar(Ambiente ambiente) {
         // Método para que los organismos interactúen con el ambiente
     }
+
+    public abstract void interactuar(ModeladodeEntidades.Ambiente ambiente);
 }
