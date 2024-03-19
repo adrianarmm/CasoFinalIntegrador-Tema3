@@ -9,7 +9,7 @@ public class Ambiente {
     private final List<Entorno> entornosList;
     private final Random r;
 
-    public Ambiente(){
+    public Ambiente(String tropical, String selva, int i, int i1, int i2){
         entornosList = new ArrayList<Entorno>();
         r = new Random();
     }

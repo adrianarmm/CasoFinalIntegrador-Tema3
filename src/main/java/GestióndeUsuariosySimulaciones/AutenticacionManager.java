@@ -23,8 +23,9 @@ public class AutenticacionManager {
         return null;
     }
 
-    public addUsuario(Usuario usuario) {
+    public void addUsuario(Usuario usuario) {
         usuarios.add(usuario);
 
     }
+
 }
