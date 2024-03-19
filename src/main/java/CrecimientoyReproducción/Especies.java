@@ -40,4 +40,16 @@ public class Especies {
         return reproduccionRate;
     }
 
+    public void setReproduccionRate(double reproduccionRate) {
+        this.reproduccionRate = reproduccionRate;
+    }
+
+    public int getPopulation() {
+        return population;
+    }
+
+    public void setPopulation(int population) {
+        this.population = population;
+    }
+
 }
