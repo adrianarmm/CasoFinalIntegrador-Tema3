@@ -35,6 +35,7 @@ public class SimuladorMain {
             System.out.println("Fallo en la autenticación.");
         }
 
+
         // Mostrar información de la simulación
         System.out.println("Simulación completada. Resultados registrados.");
     }

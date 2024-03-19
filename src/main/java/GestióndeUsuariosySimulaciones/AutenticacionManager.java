@@ -22,4 +22,9 @@ public class AutenticacionManager {
         }
         return null;
     }
+
+    public addUsuario(Usuario usuario) {
+        usuarios.add(usuario);
+
+    }
 }
