@@ -1,5 +1,6 @@
 package ModeladodeEntidades;
 import java.util.List;
+import java.util.Random;
 
 
 public class Entorno {
@@ -9,46 +10,53 @@ public class Entorno {
     private int maxPosX;
     private int maxPosY;
 
-    public Entorno(String temperatura, String terreno, int recursosDisponibles) {
-        this.temperatura = temperatura;
-        this.terreno = terreno;
-        this.recursosDisponibles = recursosDisponibles;
+    public Entorno(String clima, String tipoTerreno, int recursos, int maxPosX, int maxPosY) {
+        this.clima = clima;
+        this.tipoTerreno = tipoTerreno;
+        this.recursosDisponibles = recursos;
+        this.maxPosX = maxPosX;
+        this.maxPosY = maxPosY;
     }
 
-    // Cambiado el tipo de retorno de Object a int, para reflejar correctamente el tipo de los recursos disponibles
-    public int getRecursosDisponibles() {
-        return this.recursosDisponibles;
+    public void agregarOrganismo(Organismo organismo) {
+        // Lógica para agregar un organismo al ambiente
     }
 
-    // Implementar correctamente el método setRecursosDisponibles para actualizar el valor de recursosDisponibles
-    public void setRecursosDisponibles(int recursosDisponibles) {
-        this.recursosDisponibles = recursosDisponibles;
+    public void pasoDelTiempo() {
+        // Simular interacciones entre los organismos y el ambiente
     }
 
-    // Implementar correctamente el método setTemperatura para actualizar el valor de temperatura
-    public void setTemperatura(String temperatura) {
-        this.temperatura = temperatura;
+    public void simularPredacion(Organismo depredador, Organismo presa) {
+        // Simulación básica: el depredador reduce la salud de la presa
+        presa.salud -= 20;
+        if (presa.salud <= 0) {
+            presa.morir(); // La presa muere
+        }
     }
 
-    public List<Animal> animales;
-    private List<Planta> plantas;
-
-
-
-    public void addAnimal(Animal animal) {
-
+    public void simularCompetenciaRecursos(Organismo organismo1, Organismo organismo2) {
+        // Simulación básica: ambos organismos compiten por los recursos
     }
 
-    public void addPlanta(Planta planta) {
-
+    public void simularPolinizacion(Organismo planta, Organismo polinizador) {
+        // Simulación básica: el polinizador ayuda en la polinización de la planta
     }
 
-    // Métodos get para temperatura y terreno, si son necesarios
-    public String getTemperatura() {
-        return temperatura;
+    public int obtenerRecursos(int cantidad) {
+        // Método para que los organismos obtengan recursos del ambiente
+        return recursosDisponibles >= cantidad ? cantidad : recursosDisponibles;
     }
 
-    public String getTerreno() {
-        return terreno;
+    public boolean validarPosicion(int posX, int posY) {
+        // Método para verificar si una posición está dentro de los límites del ambiente
+        return posX >= 0 && posX < maxPosX && posY >= 0 && posY < maxPosY;
     }
+
+    public int buscarComida(Animal animal) {
+        // Método para simular la búsqueda de comida por parte de un animal
+        // Devuelve la cantidad de recursos encontrados
+        return new Random().nextInt(21); // Se simula encontrando una cantidad aleatoria entre 0 y 20
+    }
+
+
 }
