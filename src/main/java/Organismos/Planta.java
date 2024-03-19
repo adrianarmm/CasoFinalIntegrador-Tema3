@@ -1,7 +1,7 @@
 package Organismos;
 
-public class Planta {
-    private int salud;
-    private int edad;
-    private boolean estaViva;
+public class extends  Planta {
+    int salud;
+    int edad;
+    boolean estaViva;
 }
