@@ -18,7 +18,11 @@ public class Ambiente {
         entornosList.add(entorno);
     }
 
-    public void simularDesastreNatural(){
-        return entornosList.get(r.nextInt(entornosList.size()));
+    public void simularDesastreNatural(double desastreRate){
+       if (random.nextDouble() < desastreRate){
+           for (Entorno entorno : entornosList){
+               entorno.setRecursosDisponibles(int) (entorno.getRecursosDisponibles() * (1- disasterRate);
+           }
+       }
     }
 }
