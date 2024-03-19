@@ -1,4 +1,4 @@
-package EventosAleatorios;
+package SimuladordeDinámicasPoblacionales.ResultadosdelaSimulación.EventosAleatorios;
 
 import ModeladodeEntidades.Ambiente.Entorno;
 

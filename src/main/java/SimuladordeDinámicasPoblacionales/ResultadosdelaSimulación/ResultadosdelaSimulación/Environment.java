@@ -1,10 +1,6 @@
-package ResultadosdelaSimulación;
+package SimuladordeDinámicasPoblacionales.ResultadosdelaSimulación.ResultadosdelaSimulación;
 
-import CrecimientoyReproducción.Especies;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
+import SimuladordeDinámicasPoblacionales.ResultadosdelaSimulación.CrecimientoyReproducción.Especies;
 
 public class Environment {
 
