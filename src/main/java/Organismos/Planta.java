@@ -1,7 +1,9 @@
 package Organismos;
 
-public class extends  Planta {
-    int salud;
-    int edad;
-    boolean estaViva;
+class Planta extends Organismo {
+
+    public Planta(int posicionX, int posicionY, double salud, int edad, boolean estadoReproductivo) {
+        super(posicionX, posicionY, salud, edad, estadoReproductivo);
+    }
 }
+

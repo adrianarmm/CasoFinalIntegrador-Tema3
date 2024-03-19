@@ -1,8 +1,9 @@
 package Organismos;
 
-public class Animal {
-    private int salud;
-    private int edad;
-    private boolean estaVivo;
-    private String especies;
+class Animal extends Organismo {
+
+    public Animal(int posicionX, int posicionY, double salud, int edad, boolean estadoReproductivo) {
+        super(posicionX, posicionY, salud, edad, estadoReproductivo);
+    }
+
 }
