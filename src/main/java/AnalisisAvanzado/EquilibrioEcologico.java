@@ -1,4 +1,4 @@
-package AnálisisAvanzado;
+package AnalisisAvanzado;
 
 
 public class EquilibrioEcologico {
