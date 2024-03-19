@@ -15,6 +15,8 @@ import java.awt.*;
 
 public class SimuladorMain {
 
+    public static void main(String[] args) {
+
     Scanner scanner = new Scanner ( System.in );
     Ambiente ambiente = new Ambiente ( "Tropical", "Selva", 1000, 50, 50 );
     Simulador simulador = new Simulador ( 3.0, 80.0 );
@@ -440,7 +442,7 @@ public static void gestionUsuariosSimulacionesMenu () {
                 break;
             case 3:
                 if (usuarioAutenticado) {
-                    RegistroActividades ();
+                    new RegistroSimulaciones();
                 } else {
                     System.out.println ( "Error: Debe autenticarse primero para acceder al registro de actividades." );
                 }
@@ -529,9 +531,14 @@ public static boolean autenticacion () {
 }
 
 
-public class SimuladorEcologico {
+public static class Simulador {
     public static double[] tasasReproduccion;
     private static double[] tasasMortalidad;
+
+    public Simulador(double v, double v1) {
+
+    }
+
     // Método para ejecutar la simulación
     public static void ejecutarSimulacion(Scanner scanner) {
         System.out.println("Ejecutando simulación...");
@@ -603,6 +610,14 @@ public class SimuladorEcologico {
             double valorParametro = scanner.nextDouble ();
             System.out.println ( "Parámetro configurado: " + nombreParametro + " = " + valorParametro );
         }
+
+    }
+
+    public void simularCrecimientoYReproduccion(Ambiente ambiente, double v, int i) {
+
+    }
+
+    public void verResultadosSimulacion(Ambiente ambiente) {
 
     }
 }
@@ -730,5 +745,3 @@ static class Animal {
 }
         }
 
-public void main() {
-}

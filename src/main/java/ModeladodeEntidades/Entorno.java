@@ -3,9 +3,11 @@ import java.util.List;
 
 
 public class Entorno {
-    private String temperatura;
-    private String terreno;
+    private String clima;
+    private String tipoTerreno;
     private int recursosDisponibles;
+    private int maxPosX;
+    private int maxPosY;
 
     public Entorno(String temperatura, String terreno, int recursosDisponibles) {
         this.temperatura = temperatura;

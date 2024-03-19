@@ -2,7 +2,7 @@ package GestióndeUsuariosySimulaciones;
 import javax.swing.*;
 import java.awt.*;
 
-import static jdk.internal.misc.OSEnvironment.initialize;
+
 
 public class SimulacionUI {
     private JFrame frame;
@@ -27,9 +27,6 @@ public class SimulacionUI {
             });
     }
 
-    public SimulacionUI() {
-        initialize();
-    }
 
     private void initializer () {
         frame = new JFrame("Simulador de Dinámicas Poblacionales");

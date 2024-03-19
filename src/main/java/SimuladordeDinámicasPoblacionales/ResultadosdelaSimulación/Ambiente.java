@@ -35,4 +35,12 @@ public class Ambiente {
             }
         }
     }
+
+    public int getPoblacion() {
+        return 0;
+    }
+
+    public void setPoblacion(int nuevaPoblacion) {
+
+    }
 }
