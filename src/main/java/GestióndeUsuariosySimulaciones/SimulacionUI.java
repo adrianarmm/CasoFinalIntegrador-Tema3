@@ -1,4 +1,4 @@
-package GestióndeUsuariosySimulaciones.InterfazdeUsuario;
+package GestióndeUsuariosySimulaciones;
 import javax.swing.*;
 import java.awt.*;
 

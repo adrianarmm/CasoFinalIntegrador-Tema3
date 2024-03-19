@@ -1,4 +1,4 @@
-package SimuladordeDinámicasPoblacionales.ResultadosdelaSimulación.EventosAleatorios;
+package SimuladordeDinámicasPoblacionales.ResultadosdelaSimulación;
 
 public class Entorno {
 

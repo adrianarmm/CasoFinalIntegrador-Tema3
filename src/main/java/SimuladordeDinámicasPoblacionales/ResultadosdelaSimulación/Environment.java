@@ -1,6 +1,6 @@
-package SimuladordeDinámicasPoblacionales.ResultadosdelaSimulación.ResultadosdelaSimulación;
+package SimuladordeDinámicasPoblacionales.ResultadosdelaSimulación;
 
-import SimuladordeDinámicasPoblacionales.ResultadosdelaSimulación.CrecimientoyReproducción.Especies;
+import SimuladordeDinámicasPoblacionales.ResultadosdelaSimulación.Especies;
 
 public class Environment {
 

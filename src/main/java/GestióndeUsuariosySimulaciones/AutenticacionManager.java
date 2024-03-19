@@ -1,4 +1,4 @@
-package GestióndeUsuariosySimulaciones.Autenticacion;
+package GestióndeUsuariosySimulaciones;
 
 import java.util.ArrayList;
 import java.util.List;

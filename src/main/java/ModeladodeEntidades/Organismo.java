@@ -1,4 +1,4 @@
-package ModeladodeEntidades.Organismos;
+package ModeladodeEntidades;
 abstract class Organismo {
     protected int posicionX;
     protected int posicionY;

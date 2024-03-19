@@ -1,4 +1,4 @@
-package SimuladordeDinámicasPoblacionales.ResultadosdelaSimulación.CrecimientoyReproducción;
+package SimuladordeDinámicasPoblacionales.ResultadosdelaSimulación;
 
 public class Especies {
     private String nombre;

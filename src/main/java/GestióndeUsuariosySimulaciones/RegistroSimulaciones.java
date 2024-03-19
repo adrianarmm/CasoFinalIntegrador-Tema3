@@ -1,4 +1,4 @@
-package GestióndeUsuariosySimulaciones.RegistrodeActividades;
+package GestióndeUsuariosySimulaciones;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

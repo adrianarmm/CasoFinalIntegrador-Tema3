@@ -1,6 +1,6 @@
-package SimuladordeDinámicasPoblacionales.ResultadosdelaSimulación.EventosAleatorios;
+package SimuladordeDinámicasPoblacionales.ResultadosdelaSimulación;
 
-import ModeladodeEntidades.Ambiente.Entorno;
+import ModeladodeEntidades.Entorno;
 
 import java.util.List;
 import java.util.Random;
