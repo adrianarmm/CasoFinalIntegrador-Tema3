@@ -1,6 +1,5 @@
 package ModeladodeEntidades.Organismos;
 
-import ModeladodeEntidades.Organismo;
 
 public class Animal extends Organismo {
 
