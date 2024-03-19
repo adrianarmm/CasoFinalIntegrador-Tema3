@@ -24,4 +24,20 @@ public class Especies {
         return nombre;
     }
 
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public double getCrecimientoRate() {
+        return crecimientoRate;
+    }
+
+    public void setCrecimientoRate(double crecimientoRate) {
+        this.crecimientoRate = crecimientoRate;
+    }
+
+    public double getReproduccionRate() {
+        return reproduccionRate;
+    }
+
 }
