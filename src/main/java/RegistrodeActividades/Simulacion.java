@@ -60,9 +60,9 @@ public List<Especies> getEspecies() {
     return especies;
 }
 
-public void setEspecies(List<Especie> especies) {
-    this.especies = especies;
-}species
+public void setEspecies(List<Especies> especies) {
+    this.getEspecies() = especies;
+}
 
 public List<EventoAleatorio> getEventosAleatorios() {
     return eventosAleatorios;
