@@ -6,11 +6,11 @@ import java.util.List;
 import java.util.Random;
 import java.util.ArrayList;
 public class Ambiente {
-    private list<Entorno> entornosList;
-    private random r;
+    private final list<Entorno> entornosList;
+    private final random r;
 
     public Ambiente(){
-        entornosList = new ArrayList<Entorno>();
+        entornosList = new list<Entorno>();
         r = new Random();
     }
 
@@ -19,10 +19,19 @@ public class Ambiente {
     }
 
     public void simularDesastreNatural(double desastreRate){
-       if (random.nextDouble() < desastreRate){
+        Random random = new Random()    ;
+        if (random.nextDouble() < desastreRate){
            for (Entorno entorno : entornosList){
                entorno.setRecursosDisponibles(int) (entorno.getRecursosDisponibles() * (1- disasterRate);
            }
        }
+    }
+
+    public void simularCambioClimatico(double cambioClimaticoRate){
+        if (Random.nextDouble() < cambioClimaticoRate){
+            for (Entorno entorno : entornosList){
+                entorno.setTemperatura("Calido");
+            }
+        }
     }
 }
