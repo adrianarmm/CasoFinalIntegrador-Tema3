@@ -1,6 +1,9 @@
+package SimuladordeDinámicasPoblacionales;
+package SimuladordeDinámicasPoblacionales;
+package RegistrodeActividades;
+
 import SimuladordeDinámicasPoblacionales.ResultadosdelaSimulación.CrecimientoyReproducción.Especies;
-import SimuladordeDinámicasPoblacionales.ResultadosdelaSimulación.CrecimientoyReproducción.EventoAleatorio;
-import SimuladordeDinámicasPoblacionales.ResultadosdelaSimulación.CrecimientoyReproducción.ResultadoSimulacion;
+
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -64,7 +67,7 @@ public void setEspecies(List<Especies> especies) {
     this.getEspecies() = especies;
 }
 
-public List<EventoAleatorio> getEventosAleatorios() {
+public List<EventosAleatorios> getEventosAleatorios() {
     return eventosAleatorios;
 }
 
