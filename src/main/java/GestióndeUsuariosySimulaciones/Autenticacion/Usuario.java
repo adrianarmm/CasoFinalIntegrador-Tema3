@@ -1,4 +1,4 @@
-package Autenticación;
+package GestióndeUsuariosySimulaciones.Autenticacion;
 
 public class Usuario {
     private String usuario;

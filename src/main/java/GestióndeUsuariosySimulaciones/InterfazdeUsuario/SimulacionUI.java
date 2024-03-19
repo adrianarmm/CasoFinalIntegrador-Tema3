@@ -1,8 +1,6 @@
-package InterfazdeUsuario;
+package GestióndeUsuariosySimulaciones.InterfazdeUsuario;
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 import static jdk.internal.misc.OSEnvironment.initialize;
 
