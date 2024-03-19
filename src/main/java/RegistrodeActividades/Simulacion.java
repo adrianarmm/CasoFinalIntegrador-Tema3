@@ -1,4 +1,6 @@
 import SimuladordeDinámicasPoblacionales.ResultadosdelaSimulación.CrecimientoyReproducción.Especies;
+import SimuladordeDinámicasPoblacionales.ResultadosdelaSimulación.CrecimientoyReproducción.EventoAleatorio;
+import SimuladordeDinámicasPoblacionales.ResultadosdelaSimulación.CrecimientoyReproducción.ResultadoSimulacion;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -11,7 +13,7 @@ public class Simulacion {
     private List<EventoAleatorio> eventosAleatorios;
     private List<ResultadoSimulacion> resultados;
 
-    public Simulacion(LocalDateTime fechaHoraInicio, List<Especie> especies, List<EventoAleatorio> eventosAleatorios) {
+    public Simulacion(LocalDateTime fechaHoraInicio, List<Especies> especies, List<EventoAleatorio> eventosAleatorios) {
         this.fechaHoraInicio = fechaHoraInicio;
         this.especies = especies;
         this.eventosAleatorios = eventosAleatorios;
@@ -54,7 +56,7 @@ public void setFechaHoraFin(LocalDateTime fechaHoraFin) {
     this.fechaHoraFin = fechaHoraFin;
 }
 
-public List<Especie> getEspecies() {
+public List<Especies> getEspecies() {
     return especies;
 }
 
