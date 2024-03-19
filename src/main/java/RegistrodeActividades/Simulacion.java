@@ -13,7 +13,7 @@ public class Simulacion {
     private LocalDateTime fechaHoraInicio;
     private LocalDateTime fechaHoraFin;
     private List<Especies> especies;
-    private List<EventoAleatorio> eventosAleatorios;
+    private List<EventosAleatorios> eventosAleatorios;
     private List<ResultadoSimulacion> resultados;
 
     public Simulacion(LocalDateTime fechaHoraInicio, List<Especies> especies, List<EventoAleatorio> eventosAleatorios) {
