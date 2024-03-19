@@ -19,8 +19,8 @@ public class Ambiente {
     }
 
     public void simularDesastreNatural(double desastreRate){
-        Random random = new Random()    ;
-        if (random.nextDouble() < desastreRate){
+
+        if (r.nextDouble() < desastreRate){
            for (Entorno entorno : entornosList){
                entorno.setRecursosDisponibles(int) (entorno.getRecursosDisponibles() * (1- disasterRate);
            }
