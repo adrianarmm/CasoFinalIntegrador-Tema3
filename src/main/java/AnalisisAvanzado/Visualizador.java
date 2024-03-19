@@ -22,7 +22,7 @@ public class Visualizador {
 
     public JPanel crearGraficoPoblaciones() {
         XYSeries series = new XYSeries("Poblaciones");
-        for (Especie especie : especies) {
+        for (Especies especie : especies) {
             series.add(especie.getTiempo(), especie.getPoblacion());
         }
         dataset.addSeries(series);

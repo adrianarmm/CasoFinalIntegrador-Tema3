@@ -52,4 +52,11 @@ public class Especies {
         this.population = population;
     }
 
+    public double getTiempo() {
+        return 0;
+    }
+
+    public double getPoblacion() {
+        return 0;
+    }
 }
