@@ -1,5 +1,7 @@
 package ModeladodeEntidades;
 
+import SimuladordeDinámicasPoblacionales.ResultadosdelaSimulación.Ambiente;
+
 public class Organismo {
     protected int posicionX;
     protected int posicionY;
