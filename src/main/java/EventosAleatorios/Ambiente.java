@@ -22,7 +22,8 @@ public class Ambiente {
 
         if (r.nextDouble() < desastreRate){
            for (Entorno entorno : entornosList){
-               entorno.getClass((int)) (entorno.getRecursosDisponibles() * (1- disasterRate)));
+            int recursosDisponibles = (int)    entorno.getRecursosDisponibles();
+               entorno.setRecursosDisponibles(recursosDisponibles/2);
            }
        }
     }
