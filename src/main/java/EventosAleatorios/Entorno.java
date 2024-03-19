@@ -13,8 +13,6 @@ public class Entorno {
         public void setRecursosDisponibles(int recursosDisponibles) {
             this.recursosDisponibles = recursosDisponibles;
         }
-
-        // Otros métodos...
-    }
+}
 
 
