@@ -22,13 +22,13 @@ public class Ambiente {
 
         if (r.nextDouble() < desastreRate){
            for (Entorno entorno : entornosList){
-               entorno.setRecursosDisponibles(int) (entorno.getRecursosDisponibles() * (1- disasterRate);
+               entorno.setRecursosDisponibles((int)) (entorno.getRecursosDisponibles() * (1- disasterRate)));
            }
        }
     }
 
     public void simularCambioClimatico(double cambioClimaticoRate){
-        if (Random.nextDouble() < cambioClimaticoRate){
+        if (r.nextDouble() < cambioClimaticoRate){
             for (Entorno entorno : entornosList){
                 entorno.setTemperatura("Calido");
             }
