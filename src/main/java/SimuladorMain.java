@@ -518,8 +518,8 @@ public static boolean autenticacion () {
     String contrasena = scanner.nextLine ();
 
     // Usuario y contraseña predefinidos
-    String usuarioCorrecto = "vitaliy";
-    String contrasenaCorrecta = "mercadona";
+    String usuarioCorrecto = "adriana";
+    String contrasenaCorrecta = "tartadequeso";
 
     // Verificar si el usuario y la contraseña ingresados coinciden con los predefinidos
     if (usuario.equals ( usuarioCorrecto ) && contrasena.equals ( contrasenaCorrecta )) {
