@@ -6,15 +6,16 @@ public class Usuario {
 
 
     public Usuario(String usuario, String contraseña) {
-        this.usuario = getUsuario();
+        this.usuario = Usuario();
         this.contraseña = contraseña;
     }
 
     public boolean autenticar(String contraseña){
+
         return this.contraseña.equals(contraseña);
     }
 
-    public String getUsuario(){
+    public String Usuario(){
         return usuario;
     }
 
