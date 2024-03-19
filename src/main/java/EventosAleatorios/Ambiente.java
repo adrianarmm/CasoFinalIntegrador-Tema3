@@ -6,11 +6,11 @@ import java.util.List;
 import java.util.Random;
 import java.util.ArrayList;
 public class Ambiente {
-    private final list<Entorno> entornosList;
-    private final random r;
+    private final List<Entorno> entornosList;
+    private final Random r;
 
     public Ambiente(){
-        entornosList = new list<Entorno>();
+        entornosList = new ArrayList<Entorno>();
         r = new Random();
     }
 
