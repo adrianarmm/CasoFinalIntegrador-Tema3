@@ -4,7 +4,6 @@ public class Entorno {
 
         private int recursosDisponibles;
 
-        // Otros atributos y métodos...
 
         public int getRecursosDisponibles() {
             return this.recursosDisponibles;
