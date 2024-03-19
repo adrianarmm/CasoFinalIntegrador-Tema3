@@ -1,5 +1,6 @@
 import AnalisisAvanzado.Simulador;
 import ModeladodeEntidades.*;
+
 import SimuladordeDinámicasPoblacionales.ResultadosdelaSimulación.Ambiente;
 import GestióndeUsuariosySimulaciones.*;
 import java.util.Scanner;
