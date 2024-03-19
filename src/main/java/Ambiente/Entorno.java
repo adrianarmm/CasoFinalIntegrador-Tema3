@@ -1,7 +1,13 @@
 package Ambiente;
 
 public class Entorno {
-    private int temperatura;
-    private int terreno;
-    private int recursos;
+    private String temperatura;
+    private String terreno;
+    private int recursosDisponibles;
+
+    public Entorno(String temperatura, String terreno, int recursosDisponibles) {
+        this.temperatura = temperatura;
+        this.terreno = terreno;
+        this.recursosDisponibles = recursosDisponibles;
+    }
 }
