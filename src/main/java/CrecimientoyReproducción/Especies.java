@@ -15,4 +15,13 @@ public class Especies {
     public void crecimiento() {
       population+= (int) (population * reproduccionRate);
     }
+
+    public void reproduccion() {
+      population+= (int) (population * reproduccionRate);
+    }
+    // getters and setters
+    public String getNombre() {
+        return nombre;
+    }
+
 }
