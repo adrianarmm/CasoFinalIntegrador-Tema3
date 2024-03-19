@@ -10,4 +10,8 @@ public class Animal extends Organismo {
     public double getPoblacion() {
         return 0;
     }
+
+    public void comer(Animal presa) {
+    }
+
 }

@@ -12,6 +12,14 @@ public class Especies {
         this.reproduccionRate = reproduccionRate;
     }
 
+    public Especies(String leon, double poblacion, int i) {
+
+    }
+
+    public Especies(String pasto, Object poblacion, int i) {
+
+    }
+
     public void crecimiento() {
       population+= (int) (population * reproduccionRate);
     }
