@@ -1,12 +1,12 @@
 package Autenticación;
 
 public class Usuario {
-    private String nombre;
+    private String usuario;
     private String contraseña;
 
 
-    public Usuario(String nombre, String contraseña, String correo) {
-        this.nombre = nombre;
+    public Usuario(String usuario, String contraseña) {
+        this.usuario = getUsuario();
         this.contraseña = contraseña;
     }
 
@@ -15,6 +15,14 @@ public class Usuario {
     }
 
     public String getUsuario(){
-        return nombre;
+        return usuario;
+    }
+
+    public String getContraseña(){
+        return contraseña;
+    }
+
+    public void setContraseña(String contraseña){
+        this.contraseña = contraseña;
     }
 }
