@@ -1,7 +1,14 @@
 package Interacciones;
 
+import Organismos.Animal;
+
 public class Predacion {
-    public void predacion() {
-        System.out.println("Depredando");
+    private Animal depredador;
+    private Animal presa;
+
+    public Predacion(Animal depredador, Animal presa) {
+        this.depredador = depredador;
+        this.presa = presa;
     }
+
 }
