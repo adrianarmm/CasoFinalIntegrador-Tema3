@@ -10,4 +10,14 @@ public class Entorno {
         this.terreno = terreno;
         this.recursosDisponibles = recursosDisponibles;
     }
+
+    public Object getRecursosDisponibles() {
+        return this.recursosDisponibles;
+    }
+
+    public void setRecursosDisponibles(int i) {
+    }
+
+    public void setTemperatura(String calido) {
+    }
 }

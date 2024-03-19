@@ -22,7 +22,7 @@ public class Ambiente {
 
         if (r.nextDouble() < desastreRate){
            for (Entorno entorno : entornosList){
-            int recursosDisponibles = (int)    entorno.getRecursosDisponibles();
+            int recursosDisponibles = (int)  entorno.getRecursosDisponibles();
                entorno.setRecursosDisponibles(recursosDisponibles/2);
            }
        }
