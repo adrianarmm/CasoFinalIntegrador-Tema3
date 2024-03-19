@@ -1,4 +1,6 @@
-package Organismos;
+package ModeladodeEntidades.Organismos;
+
+import ModeladodeEntidades.Organismos.Organismo;
 
 class Planta extends Organismo {
 

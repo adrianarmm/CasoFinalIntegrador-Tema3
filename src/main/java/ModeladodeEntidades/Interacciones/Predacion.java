@@ -1,6 +1,6 @@
-package Interacciones;
+package ModeladodeEntidades.Interacciones;
 
-import Organismos.Animal;
+import ModeladodeEntidades.Organismos.Animal;
 
 public class Predacion {
     private Animal depredador;

@@ -1,4 +1,4 @@
-package Ambiente;
+package ModeladodeEntidades.Ambiente;
 
 public class Entorno {
     private String temperatura;
